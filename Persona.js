@@ -8,7 +8,7 @@ const Persona = () => {
             <p className="text-center"  style={{color:'#555555'}}>Experience our product page tailored to your shopping style</p>
             <div className="row g-4">
                 {/* TikTok Explorer Card */}
-                <div className="col-md-3 col-sm-6">
+                <div className="col-md-4 col-sm-6">
                     <div className="card h-100 shadow-sm">
                         <div className="card-body">
                             <h5 className="card-title text-center mb-3">
@@ -36,7 +36,7 @@ const Persona = () => {
                 </div>
 
                 {/* Other Persona Cards */}
-                <div className="col-md-3 col-sm-6">
+                <div className="col-md-4 col-sm-6">
                     <div className="card h-100 shadow-sm">
                         <div className="card-body">
                             <h5 className="card-title text-center mb-3">
@@ -63,7 +63,7 @@ const Persona = () => {
                     </div>
                 </div>
 
-                <div className="col-md-3 col-sm-6">
+                <div className="col-md-4 col-sm-6">
                     <div className="card h-100 shadow-sm">
                         <div className="card-body">
                             <h5 className="card-title text-center mb-3">
@@ -90,7 +90,11 @@ const Persona = () => {
                     </div>
                 </div>
 
-                <div className="col-md-3 col-sm-6">
+               
+            </div>
+            <br/>
+            <div className="row g-4">
+                 <div className="col-md-4 col-sm-6">
                     <div className="card h-100 shadow-sm">
                         <div className="card-body">
                             <h5 className="card-title text-center mb-3">
@@ -113,6 +117,58 @@ const Persona = () => {
                                Technical specs, comparison context, sustainability info
                             </p>
                             <button className="btn btn-success" onClick={() => navigate("/ai")}>SELECT PERSONA</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                    <div className="card h-100 shadow-sm">
+                        <div className="card-body">
+                            <h5 className="card-title text-center mb-3">
+                                Personalized Pricing
+                            </h5>
+
+                            <p><strong>Demographics:</strong><br />New Customer / VIP Member</p>
+
+                            <p><strong>Device:</strong><br />Any Device</p>
+
+                            <p><strong>Source:</strong><br />Direct Visit / Kendra Scott Customer</p>
+
+                            <p><strong>Intent:</strong><br />Price-sensitive, values personalized offers</p>
+                            <hr/>
+                            <p><strong>Behavior:</strong><br />
+                                Compares prices, seeks best deals, appreciates loyalty rewards
+                            </p>
+
+                            <p><strong>Needs:</strong><br />
+                                User-specific pricing, discount transparency, pricing rationale
+                            </p>
+                            <button className="btn btn-warning" onClick={() => navigate("/pricing")} style={{color:'#ffffff'}}>SELECT PERSONA</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                    <div className="card h-100 shadow-sm">
+                        <div className="card-body">
+                            <h5 className="card-title text-center mb-3">
+                               Bundle Shopper
+                            </h5>
+
+                            <p><strong>Demographics:</strong><br />Value-conscious, style-focused</p>
+
+                            <p><strong>Device:</strong><br />Any Device</p>
+
+                            <p><strong>Source:</strong><br />Product page visitor</p>
+
+                            <p><strong>Intent:</strong><br />High purchase intent, interested in complete looks</p>
+                            <hr/>
+                            <p><strong>Behavior:</strong><br />
+                                Likes matching sets, appreciates bundle savings, completes outfits
+                            </p>
+
+                            <p><strong>Needs:</strong><br />
+                               Product pairings, bundle discounts, styling suggestions
+                            </p>
+                            <button className="btn btn-danger" onClick={() => navigate("/bundle")} style={{color:'#ffffff'}}>SELECT PERSONA</button>
                         </div>
                     </div>
                 </div>
